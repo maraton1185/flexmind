@@ -15,6 +15,10 @@
                name="lifeCycleURI"
                value="bundleclass://flexmind/flexmind.E4LifeCycle">
          </property>
+         <property
+               name="appName"
+               value="flexmind">
+         </property>
       </product>
    </extension>
 
