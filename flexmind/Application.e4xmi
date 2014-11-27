@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_K27IoHUzEeSsI83RZoZb1w" elementId="org.eclipse.e4.ide.application" bindingContexts="_K27vsHUzEeSsI83RZoZb1w">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_K27IoXUzEeSsI83RZoZb1w" label="flexmind" width="500" height="400"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_K27IoXUzEeSsI83RZoZb1w" label="flexmind" iconURI="platform:/plugin/flexmind/icons/favicon.png" width="500" height="400">
+    <mainMenu xmi:id="_4osJ0HYzEeSHSYu0YfGzuA" elementId="flexmind.menu.0"/>
+  </children>
   <rootContext xmi:id="_K27vsHUzEeSsI83RZoZb1w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_K27vsXUzEeSsI83RZoZb1w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_K27vsnUzEeSsI83RZoZb1w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>

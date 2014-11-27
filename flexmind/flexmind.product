@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="flexmind" id="flexmind.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
+<product name="flexmind" id="flexmind.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
 
    <configIni use="default">
    </configIni>
 
    <launcherArgs>
       <programArgs>-clearPersistedState
+-clear
       </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages/>
+   <windowImages i16="/flexmind/icons/favicon.png"/>
+
+
+   <launcher name="flexmind">
+      <solaris/>
+      <win useIco="true">
+         <ico path="/flexmind/icons/favicon.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
+   </vm>
+
 
    <plugins>
       <plugin id="com.ibm.icu"/>
@@ -79,6 +96,7 @@
       <plugin id="org.eclipse.equinox.event"/>
       <plugin id="org.eclipse.equinox.preferences"/>
       <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.equinox.security"/>
       <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
       <plugin id="org.eclipse.equinox.util"/>
       <plugin id="org.eclipse.jface"/>
@@ -110,6 +128,11 @@
       <plugin id="org.w3c.dom.smil"/>
       <plugin id="org.w3c.dom.svg"/>
    </plugins>
+
+   <features>
+      <feature id="flexmindUI" version="1.0.0.qualifier"/>
+      <feature id="flexmindCore" version="1.0.0.qualifier"/>
+   </features>
 
 
 </product>

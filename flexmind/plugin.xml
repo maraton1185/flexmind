@@ -5,19 +5,15 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="flexmind"
-            application="org.eclipse.e4.ui.workbench.swt.E4Application">
-         <property
-               name="applicationCSS"
-               value="platform:/plugin/flexmind/css/default.css">
-         </property>
-         <property
-               name="lifeCycleURI"
-               value="bundleclass://flexmind/flexmind.E4LifeCycle">
-         </property>
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="flexmind">
          <property
                name="appName"
                value="flexmind">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/favicon.png">
          </property>
       </product>
    </extension>
