@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_K27IoHUzEeSsI83RZoZb1w" elementId="org.eclipse.e4.ide.application" bindingContexts="_K27vsHUzEeSsI83RZoZb1w">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_K27IoHUzEeSsI83RZoZb1w" elementId="org.eclipse.e4.ide.application" bindingContexts="_K27vsHUzEeSsI83RZoZb1w">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_K27IoXUzEeSsI83RZoZb1w" label="flexmind" iconURI="platform:/plugin/flexmind/icons/favicon.png" width="500" height="400">
-    <mainMenu xmi:id="_4osJ0HYzEeSHSYu0YfGzuA" elementId="flexmind.menu.0"/>
+    <mainMenu xmi:id="_4osJ0HYzEeSHSYu0YfGzuA" elementId="flexmind.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_08mTgHbsEeS7x5oOSb9I0Q" elementId="flexmind.menu.file" label="Файл">
+        <children xsi:type="menu:MenuSeparator" xmi:id="_Opa3AHbtEeS7x5oOSb9I0Q" elementId="flexmind.menuseparator.0"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_5EANwHbsEeS7x5oOSb9I0Q" elementId="flexmind.directmenuitem." label="Перезапустить" contributionURI="bundleclass://flexmind/fm.handlers.Restart"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_QCxPkHbtEeS7x5oOSb9I0Q" elementId="flexmind.directmenuitem." label="Выход" contributionURI="bundleclass://flexmind/fm.handlers.Quit"/>
+      </children>
+    </mainMenu>
   </children>
   <rootContext xmi:id="_K27vsHUzEeSsI83RZoZb1w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_K27vsXUzEeSsI83RZoZb1w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>

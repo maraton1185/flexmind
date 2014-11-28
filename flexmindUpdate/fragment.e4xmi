@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_WwXq4HY7EeSHSYu0YfGzuA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OEj74HY8EeSHSYu0YfGzuA" featurename="children" parentElementId="flexmind.menu.file">
+    <elements xsi:type="menu:DirectMenuItem" xmi:id="_ZiNlgHbtEeS7x5oOSb9I0Q" elementId="flexmindupdate.directmenuitem." label="&#x41f;&#x440;&#x43e;&#x432;&#x435;&#x440;&#x438;&#x442;&#x44c; &#x43e;&#x431;&#x43d;&#x43e;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x44f;" contributionURI="bundleclass://flexmindUpdate/fmupdate.Update"/>
+  </fragments>
+</fragment:ModelFragments>

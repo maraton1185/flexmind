@@ -1,4 +1,4 @@
-package flexmind;
+package fm.core;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

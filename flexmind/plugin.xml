@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
-
    <extension
          id="product"
          point="org.eclipse.core.runtime.products">
@@ -14,6 +13,10 @@
          <property
                name="windowImages"
                value="icons/favicon.png">
+         </property>
+          <property
+               name="lifeCycleURI"
+               value="bundleclass://flexmind/fm.core.App">
          </property>
       </product>
    </extension>
